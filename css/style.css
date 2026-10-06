@@ -1,0 +1,54 @@
+:root {
+    --cor-fundo: #FFFFFF;
+    --cor-texto: #000000;
+    --cor-destaque: #007BFF;
+    --cor-link: #0056B3;
+    --cor-suave: #E5E7EB;
+    --cor-borda: #808080;
+    --cor-placeholder: #595959;
+    --cor-paragrafo: #B91C1C;
+
+    --cor-ok: #2E7D32;
+    --cor-ok-fundo: #E8F5E9;
+    --cor-ok-texto: #1B5E20;
+
+    --cor-alerta: #F9A825;
+    --cor-alerta-fundo: #FFF8E1;
+    --cor-alerta-texto: #6D4C00;
+
+    --cor-erro: #C62828;
+    --cor-erro-fundo: #FFEBEE;
+    --cor-erro-texto: #8E1616;
+
+    --cor-sombra: rgba(0, 0, 0, 0.15);
+}
+
+.resultado,
+.ok,
+.alerta,
+.erro {
+    padding: 1rem;
+    border-radius: 8px;
+    border-left: 6px solid var(--cor-texto);
+    background: var(--cor-suave);
+    color: var(--cor-texto);
+    white-space: pre-line;
+}
+
+.ok {
+    border-color: var(--cor-ok);
+    background: var(--cor-ok-fundo);
+    color: var(--cor-ok-texto);
+}
+
+.alerta {
+    border-color: var(--cor-alerta);
+    background: var(--cor-alerta-fundo);
+    color: var(--cor-alerta-texto);
+}
+
+.erro {
+    border-color: var(--cor-erro);
+    background: var(--cor-erro-fundo);
+    color: var(--cor-erro-texto);
+}
