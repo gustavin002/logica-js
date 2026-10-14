@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulador | Lógica com JS</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <main class="exercicio">
+    <h1>Academia Movimente-se: simulador</h1>
+
+    <section class="bloco">
+      <h2>Quanto vou pagar?</h2>
+      <p>Mensalidade: R$ 99,90</p>
+      <label for="d1-meses">Quantos meses?</label>
+      <input type="number" id="d1-meses">
+      <button id="d1-calcular">Calcular</button>
+      <p id="d1-resultado" class="resultado">O resultado aparece aqui.</p>
+    </section>
+
+    <section class="bloco">
+      <h2>Gasto calórico do treino</h2>
+      <label for="d2-peso">Seu peso (kg)</label>
+      <input type="number" id="d2-peso" step="0.1">
+      <label for="d2-minutos">Tempo de musculação (minutos)</label>
+      <input type="number" id="d2-minutos">
+      <button id="d2-calcular">Calcular</button>
+      <p id="d2-resultado" class="resultado">O resultado aparece aqui.</p>
+    </section>
+
+    <section class="bloco">
+      <h2>Matrícula com pagamento à vista</h2>
+      <p>Taxa de matrícula de R$ 50,00 e 10% de desconto nas mensalidades.</p>
+      <label for="d3-meses">Quantos meses?</label>
+      <input type="number" id="d3-meses">
+      <button id="d3-calcular">Calcular</button>
+      <p id="d3-resultado" class="resultado">O resultado aparece aqui.</p>
+    </section>
+
+  </main>
+
+  <script src="js/simulador.js"></script>
+</body>
+</html>

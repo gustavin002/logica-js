@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Treino e extrato | Lógica com JS</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <main class="exercicio">
+    <h1>Academia Movimente-se: treino e extrato</h1>
+
+    <section class="bloco">
+      <h2>Extrato de mensalidades</h2>
+      <label for="d1-meses">Quantos meses? (1 a 12)</label>
+      <input type="number" id="d1-meses" min="1" max="12">
+      <button id="d1-gerar">Gerar</button>
+      <p id="d1-resultado" class="resultado">O resultado aparece aqui.</p>
+    </section>
+
+    <section class="bloco">
+      <h2>Progressão de carga (8 semanas)</h2>
+      <label for="d2-carga">Carga inicial (kg)</label>
+      <input type="number" id="d2-carga" step="0.5">
+      <label for="d2-aumento">Aumento por semana (%)</label>
+      <input type="number" id="d2-aumento">
+      <button id="d2-gerar">Gerar</button>
+      <p id="d2-resultado" class="resultado">O resultado aparece aqui.</p>
+    </section>
+
+    <section class="bloco">
+      <h2>Desafio dos 10 km</h2>
+      <p>Aumentando 10% por semana, em quantas semanas você chega aos 10 km?</p>
+      <label for="d3-km">Quantos km você corre hoje?</label>
+      <input type="number" id="d3-km" step="0.1">
+      <button id="d3-calcular">Calcular</button>
+      <p id="d3-resultado" class="resultado">O resultado aparece aqui.</p>
+    </section>
+
+  </main>
+
+  <script src="js/treino.js"></script>
+</body>
+</html>

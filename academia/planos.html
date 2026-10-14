@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Planos e horários | Lógica com JS</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <main class="exercicio">
+    <h1>Academia Movimente-se: planos e horários</h1>
+
+    <section class="bloco">
+      <h2>Valor do plano</h2>
+      <label for="d1-plano">Plano</label>
+      <select id="d1-plano">
+        <option value="">Selecione</option>
+        <option value="mensal">Mensal</option>
+        <option value="trimestral">Trimestral</option>
+        <option value="anual">Anual</option>
+      </select>
+      <button id="d1-calcular">Calcular</button>
+      <p id="d1-resultado" class="resultado">O resultado aparece aqui.</p>
+    </section>
+
+    <section class="bloco">
+      <h2>Tenho direito a meia?</h2>
+      <label for="d2-idade">Sua idade</label>
+      <input type="number" id="d2-idade">
+      <button id="d2-verificar">Verificar</button>
+      <p id="d2-resultado" class="resultado">O resultado aparece aqui.</p>
+    </section>
+
+    <section class="bloco">
+      <h2>A academia está aberta?</h2>
+      <label for="d3-dia">Dia</label>
+      <select id="d3-dia">
+        <option value="">Selecione</option>
+        <option value="util">Segunda a sexta</option>
+        <option value="sabado">Sábado</option>
+        <option value="domingo">Domingo</option>
+      </select>
+      <label for="d3-hora">Hora (0 a 23)</label>
+      <input type="number" id="d3-hora" min="0" max="23">
+      <button id="d3-verificar">Verificar</button>
+      <p id="d3-resultado" class="resultado">O resultado aparece aqui.</p>
+    </section>
+
+  </main>
+
+  <script src="js/planos.js"></script>
+</body>
+</html>
